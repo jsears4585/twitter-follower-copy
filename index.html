@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="https://abs.twimg.com/a/1498793527/css/t1/twitter_core.bundle.css">
+    <link rel="stylesheet" href="https://abs.twimg.com/a/1498793527/css/t1/twitter_more_1.bundle.css">
+    <link rel="stylesheet" href="https://abs.twimg.com/a/1498793527/css/t1/twitter_more_2.bundle.css">
+  </head>
+  <body>
+    <input type="text" name="username" id="username_input"></input>
+    <button id="submit_button">Submit</button>
+
+    <div class="GridTimeline">
+      <div class="stream-item js-new-items-bar-container"></div>
+      <div class="GridTimeline-items has-items" role="list" data-max-position="" data-min-position="0">
+        <div id="flatiron-test" class="Grid Grid--withGutter" data-component-context="user" role="presentation">
+        <!-- stuff goes here -->
+        <div class="GridTimeline-end has-items">
+            <div class="GridTimeline-emptyText" id="content-main-heading">
+              You don't have any followers yet.
+            </div>
+            <div class="GridTimeline-filteredFollowers" style="display: none;">
+              <p>
+              You won't see suspected spam accounts here. <a class="u-textUserColor" target="_blank" rel="noopener" href="//support.twitter.com/articles/20169379">Learn more</a>.
+              </p>
+            </div>
+          <div class="GridTimeline-footer">
+            <span class="spinner"></span>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </script>
+  </body>
+</html>
